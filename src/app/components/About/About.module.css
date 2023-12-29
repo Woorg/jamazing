@@ -1,0 +1,46 @@
+.about {
+	@apply relative z-10 py-16 lg:py-40;
+	&:after {
+		@apply absolute left-0 top-0;
+		content: '';
+		background: url('/assets/images/general/about/about-bg.png') 0 50% no-repeat;
+	}
+}
+
+.container {
+}
+
+.cols {
+	@apply grid lg:grid-cols-2 lg:gap-7;
+}
+
+.col {
+	&:last-of-type {
+		@apply mt-16 flex flex-col items-center justify-start rounded-[61px] bg-gray px-14 py-11 lg:mt-0 lg:px-16 lg:py-12;
+	}
+}
+
+.title {
+	@apply mb-10;
+}
+
+.note {
+	@apply text-xl font-extrabold text-lightGray;
+}
+
+.markets {
+}
+
+.market {
+}
+
+.link {
+	@apply flex justify-center;
+}
+
+.image {
+}
+
+.button {
+	@apply bg-orange mx-9 mt-10 lg:hidden;
+}

@@ -1,3 +1,11 @@
-.First {
-  
+.first {
+	@apply bg-first relative overflow-hidden pt-[276px] lg:pt-64;
+}
+.bg {
+	@apply absolute bottom-0 left-0 z-10;
+}
+.image {
+	@apply m-auto aspect-19/8;
+}
+.container {
 }
