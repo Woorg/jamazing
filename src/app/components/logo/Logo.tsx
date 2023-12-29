@@ -1,38 +1,32 @@
-'use client'
+'use client';
 
-import Link from 'next/link';
-import S from './Logo.module.css';
 import { cn } from '@/app/libs/utils';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LogoIcon, LogoSecondIcon} from '../icons/logoIcon';
-export const Logo = ({ className, href } : any) => {
+import { LogoIcon, LogoSecondIcon } from '../icons/logoIcon';
+
+// import s from './Logo.module.css';
+
+export const Logo = ({ className, href }: any) => {
 	const pathName = usePathname();
-	// console.log(logoIcon);
-	
-	
-	return (
-			pathName !== '/' ? (
-			<Link className={cn(className)} href={'/'}>
-				<LogoIcon/>
-			</Link>
-			) : (
-				<LogoIcon/>
-			)
+
+	return pathName !== '/' ? (
+		<Link className={cn(className)} href={'/'}>
+			<LogoIcon />
+		</Link>
+	) : (
+		<LogoIcon className={cn(className)} />
 	);
 };
 
-export const LogoSecond = ({ className, href } : any) => {
+export const LogoSecond = ({ className, href }: any) => {
 	const pathName = usePathname();
-	// console.log(logoIcon);
-	
-	
-	return (
-			pathName !== '/' ? (
-			<Link className={cn(className)} href={'/'}>
-				<LogoSecondIcon/>
-			</Link>
-			) : (
-				<LogoSecondIcon/>
-			)
+
+	return pathName !== '/' ? (
+		<Link className={cn(className)} href={'/'}>
+			<LogoSecondIcon />
+		</Link>
+	) : (
+		<LogoSecondIcon className={cn(className)} />
 	);
 };

@@ -14,9 +14,9 @@ const Header = () => {
 	};
 
 	return (
-		<header className={cn(s.header, 'fixed left-0 top-0 z-50 w-full transition-colors', {})}>
-			<Container className={cn(s.container, 'py-2.5 lg:py-5', {})}>
-				<Logo className={cn(s.logo, '', {})} href="/"></Logo>
+		<header className={cn(s.header, '', {})}>
+			<Container className={cn(s.container, '', {})}>
+				<Logo className={cn(s.logo, 'some')} href="/" />
 
 				<div className={cn(s.links, '')}>
 					<Social />

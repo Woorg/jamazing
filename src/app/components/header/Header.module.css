@@ -3,15 +3,15 @@
 }
 
 .container {
-	@apply flex items-center items-center justify-start justify-between;
+	@apply flex flex-wrap justify-between py-[63px] lg:py-[58px];
 }
 
 .logo {
-	/* @apply ; */
+	@apply m-auto h-[132px] w-[216px] lg:ml-0 lg:h-[153px] lg:w-[252px];
 }
 
 .links {
-	@apply flex items-center gap-[10px];
+	@apply hidden items-center gap-[10px] lg:flex;
 }
 
 .button {
