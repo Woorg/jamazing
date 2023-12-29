@@ -1,0 +1,24 @@
+:root {
+}
+
+@layer components {
+	.btn {
+		@apply inline-flex cursor-pointer items-center justify-center rounded-full bg-gray px-8 py-3 font-black uppercase tracking-widest text-lightGray transition-all hover:opacity-90;
+	}
+
+	.title {
+		@apply text-4xl font-semibold uppercase leading-[1.1] text-blue-950 lg:text-[56px] 2xl:text-6xl;
+	}
+
+	.title_h2 {
+		@apply text-[22px] font-normal leading-normal lg:text-4xl lg:leading-snug 2xl:text-[44px];
+	}
+
+	.title_h3 {
+		@apply text-base font-bold normal-case leading-normal lg:text-xl 2xl:text-2xl;
+	}
+
+	.text {
+		@apply text-xs font-normal lg:text-sm 2xl:text-base;
+	}
+}

@@ -1,0 +1,18 @@
+.header {
+	/* @apply ; */
+}
+
+.container {
+	@apply flex items-center items-center justify-start justify-between;
+}
+
+.logo {
+	/* @apply ; */
+}
+
+.links {
+	@apply flex items-center gap-[10px];
+}
+
+.button {
+}

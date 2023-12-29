@@ -1,0 +1,10 @@
+.social {
+	@apply flex items-center gap-3;
+}
+
+.item {
+}
+
+.link {
+	@apply transition-all hover:opacity-90;
+}
