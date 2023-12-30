@@ -1,10 +1,22 @@
 .social {
-	@apply flex items-center gap-3;
+	@apply flex items-center justify-start gap-3;
 }
 
 .item {
+	@apply w-full grow lg:w-auto;
 }
 
 .link {
-	@apply transition-all hover:opacity-90;
+}
+
+.linkFull {
+	@apply flex w-full grow items-center gap-7 rounded-full bg-gray px-10  py-3 text-[15px] font-black uppercase tracking-wide transition-all hover:opacity-90 lg:w-auto lg:pl-8 lg:pr-10 lg:text-xl;
+}
+
+.linkText {
+	@apply max-w-28;
+}
+
+.socialFull {
+	@apply flex-col flex-wrap gap-4 lg:flex-row;
 }

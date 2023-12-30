@@ -1,2 +1,13 @@
 .contacts {
 }
+
+.container {
+	@apply flex flex-col items-center justify-center py-10 lg:py-40;
+}
+
+.title {
+}
+
+.social {
+	@apply lg:-mt-11;
+}
