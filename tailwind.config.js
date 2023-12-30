@@ -43,6 +43,8 @@ module.exports = {
 				underline: '#81818E',
 			},
 			backgroundImage: {
+				contactsTitleMod: 'linear-gradient(180deg, #424254 -16.3%, rgba(66, 66, 84, 0) 98.63%)',
+				contactsTitle: 'linear-gradient(180deg, #424254 -16.3%, rgba(66, 66, 84, 0) 78.63%)',
 				first: 'linear-gradient(180deg, #171721 32.26%, #12121A 48.67%, #030306 81.33%)',
 				'gradient-button': 'linear-gradient(93deg, #ffe8db -108.14%, #fccdb1 90.48%)',
 				circle:
@@ -53,6 +55,7 @@ module.exports = {
 				underline: 'inset 0px -.5px 0px #81818E',
 			},
 			aspectRatio: {
+				'19/84': '1927 / 848',
 				'19/8': '1927 / 860',
 				'10/4': '1040 / 467',
 			},

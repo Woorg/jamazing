@@ -1,17 +1,11 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
-import { useId, useRef, useState } from 'react';
+import { cn } from '@/app/libs/utils';
 
-const MainLayout = ({ children }: any) => {
-	const panelId = useId();
-	const pathName = usePathname();
+// import { usePathname } from 'next/navigation';
 
-	return (
-		<main className="main flex-grow overflow-hidden" key={pathName}>
-			{children}
-		</main>
-	);
+const MainLayout = ({ className, children }: any) => {
+	return <main className={cn(className, 'main flex-grow overflow-hidden')}>{children}</main>;
 };
 
 export default MainLayout;

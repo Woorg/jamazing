@@ -1,4 +1,5 @@
 import { cn } from '@/app/libs/utils';
+import bg from '@images/general/about/about-bg.png';
 import appStore from '@images/general/about/app-store.svg';
 import playMarket from '@images/general/about/google-play.png';
 import Image from 'next/image';
@@ -30,6 +31,8 @@ export function About() {
 
 	return (
 		<section className={styles.about}>
+			<Image className={styles.bg} src={bg} alt="bg" />
+
 			<Container className={styles.container}>
 				<div className={cn(styles.cols)}>
 					<div className={cn(styles.col)}>

@@ -1,13 +1,19 @@
 .contacts {
+	@apply relative;
 }
 
 .container {
-	@apply flex flex-col items-center justify-center py-10 lg:py-40;
+	@apply relative z-10 flex-col items-center justify-center pb-10  pt-28 text-center lg:pb-40 lg:pt-[307px];
 }
 
 .title {
+	/* @apply ; */
 }
 
 .social {
-	@apply lg:-mt-11;
+	@apply relative m-auto max-w-[240px] lg:-mt-11 lg:max-w-[980px];
+}
+
+.bg {
+	@apply absolute left-1/2 top-0 z-0 h-[213px] w-[702px] -translate-x-1/2 lg:h-[537px] lg:w-[1920px];
 }

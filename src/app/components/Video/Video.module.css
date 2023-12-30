@@ -1,7 +1,9 @@
 .video {
+	@apply relative z-10;
 }
 
 .container {
+	@apply relative z-10;
 }
 
 .videoContainer {
@@ -10,4 +12,8 @@
 
 .embed {
 	@apply h-full w-full object-cover object-center;
+}
+
+.bg {
+	@apply absolute left-1/2 top-0 z-0 h-[273px] w-[702px] -translate-x-1/2 lg:h-[702px] lg:w-[1920px];
 }

@@ -8,7 +8,7 @@ import { Video } from './components/Video';
 
 export default function Home() {
 	return (
-		<MainLayout>
+		<MainLayout className="">
 			<First />
 			<About />
 			<Video />

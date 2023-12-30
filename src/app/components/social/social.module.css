@@ -1,5 +1,5 @@
 .social {
-	@apply flex items-center justify-start gap-3;
+	@apply flex items-center justify-start gap-3 lg:justify-center;
 }
 
 .item {
@@ -10,11 +10,11 @@
 }
 
 .linkFull {
-	@apply flex w-full grow items-center gap-7 rounded-full bg-gray px-10  py-3 text-[15px] font-black uppercase tracking-wide transition-all hover:opacity-90 lg:w-auto lg:pl-8 lg:pr-10 lg:text-xl;
+	@apply flex w-full grow items-center gap-7 rounded-full bg-gray px-10 py-3  text-[15px] font-black uppercase tracking-wide transition-all hover:opacity-90 lg:w-auto lg:grow-0 lg:pl-8 lg:pr-10 lg:text-xl;
 }
 
 .linkText {
-	@apply max-w-28;
+	@apply max-w-28 lg:max-w-16;
 }
 
 .socialFull {

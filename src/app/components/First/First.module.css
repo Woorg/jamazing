@@ -1,11 +1,17 @@
 .first {
-	@apply bg-first relative overflow-hidden pt-[276px] lg:pt-64;
+	@apply relative z-0 overflow-hidden;
 }
-.bg {
+/* .bg {
 	@apply absolute bottom-0 left-0 z-10;
-}
+} */
 .image {
-	@apply m-auto aspect-19/8;
+	@apply m-auto aspect-19/8 object-cover;
 }
 .container {
+	@apply /* @apply
+	aspect-19/8; */ relative z-10;
+}
+
+.title {
+	@apply m-0 -mb-24 hidden lg:block;
 }

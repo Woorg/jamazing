@@ -1,13 +1,13 @@
 .about {
 	@apply relative z-10 py-16 lg:py-40;
-	&:after {
-		@apply absolute left-0 top-0;
-		content: '';
-		background: url('/assets/images/general/about/about-bg.png') 0 50% no-repeat;
-	}
+}
+
+.bg {
+	@apply absolute -top-[60px] left-1/2 h-[850px] w-[640px] -translate-x-1/2 lg:h-[848px] lg:w-[1927px];
 }
 
 .container {
+	@apply relative z-0;
 }
 
 .cols {
@@ -42,5 +42,5 @@
 }
 
 .button {
-	@apply bg-orange mx-9 mt-10 lg:hidden;
+	@apply mx-9 mt-10 bg-orange lg:hidden;
 }

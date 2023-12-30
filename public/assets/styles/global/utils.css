@@ -7,7 +7,7 @@
 	}
 
 	.title {
-		@apply text-4xl font-extrabold leading-[1.1] text-lightGray lg:text-[55px];
+		@apply text-[55px] font-extrabold leading-[1.1] text-lightGray lg:text-[55px];
 	}
 
 	.title_h2 {
@@ -22,8 +22,7 @@
 		@apply text-xl font-normal text-softGray lg:text-2xl;
 	}
 	.title-gradient {
-		@apply text-[63px] font-extrabold leading-none tracking-tight lg:text-[208px];
-		background: linear-gradient(180deg, #424254 -16.3%, rgba(66, 66, 84, 0) 78.63%);
+		@apply bg-contactsTitleMod lg:bg-contactsTitle text-[63px] font-extrabold leading-none tracking-tight lg:text-[208px];
 		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
