@@ -39,6 +39,7 @@ module.exports = {
 				pink: '#FA00FF',
 				purple: '#C589ED',
 				blue: '#00A2FF',
+				darkBlue: '#3721BD',
 				underline: '#81818E',
 			},
 			backgroundImage: {
