@@ -10,7 +10,7 @@ import styles from './About.module.css';
 export function About() {
 	const data = {
 		text: "Jamazing puts a playful music studio at your fingertips. Lead your pocket band effortlessly, guiding through moods from 'Dreamy' to 'Energy' with just a tap.",
-		note: 'currently available only in Philippines',
+		note: 'currently available <br/>only in Philippines',
 		markets: [
 			{
 				link: 'https://play.google.com/store',
@@ -46,7 +46,12 @@ export function About() {
 						{data.text && <p className={cn(styles.text, 'text')}>{data.text}</p>}
 					</div>
 					<div className={cn(styles.col)}>
-						{data.note && <span className={cn(styles.note)}>{data.note}</span>}
+						{data.note && (
+							<span
+								className={cn(styles.note)}
+								dangerouslySetInnerHTML={{ __html: data.note }}
+							></span>
+						)}
 
 						<ul className={cn(styles.markets, 'markets')}>
 							{data.markets.map((item, index) => (

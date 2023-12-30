@@ -11,7 +11,7 @@
 }
 
 .cols {
-	@apply grid lg:grid-cols-2 lg:gap-7;
+	@apply grid lg:grid-cols-2 lg:gap-7 lg:px-14;
 }
 
 .col {
@@ -25,7 +25,7 @@
 }
 
 .note {
-	@apply text-xl font-extrabold text-lightGray;
+	@apply text-xl font-extrabold capitalize text-lightGray;
 }
 
 .markets {
