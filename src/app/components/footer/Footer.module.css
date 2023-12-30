@@ -1,13 +1,24 @@
 .footer {
-	/* @apply lg:pb-10; */
+	@apply border border-t border-gray;
 }
 
 .container {
-	@apply flex flex-wrap items-center justify-between gap-5 py-5 lg:flex-nowrap 2xl:gap-10;
+	@apply flex flex-col flex-wrap items-center justify-between gap-5 py-9 lg:flex-row lg:flex-nowrap;
+}
+
+.links {
+	@apply flex gap-10;
+}
+
+.link {
+	@apply text-underline shadow-underline text-lg transition-all;
+	&:hover {
+		@apply shadow-none transition-all;
+	}
 }
 
 .logo {
-	@apply h-[48px] w-[46px] shrink-0  lg:h-[54px] lg:w-[52px] 2xl:h-[74px] 2xl:w-[72px];
+	@apply mt-7 h-[91px] w-[150px] lg:mt-0  lg:h-[129px] lg:w-[212px];
 }
 
 /* .navigation {

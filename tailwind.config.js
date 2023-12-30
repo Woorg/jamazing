@@ -39,6 +39,7 @@ module.exports = {
 				pink: '#FA00FF',
 				purple: '#C589ED',
 				blue: '#00A2FF',
+				underline: '#81818E',
 			},
 			backgroundImage: {
 				first: 'linear-gradient(180deg, #171721 32.26%, #12121A 48.67%, #030306 81.33%)',
@@ -48,6 +49,7 @@ module.exports = {
 			},
 			boxShadow: {
 				btn: '0px 0px 20px 0px #CE8C65',
+				underline: 'inset 0px -.5px 0px #81818E',
 			},
 			aspectRatio: {
 				'19/8': '1927 / 860',
