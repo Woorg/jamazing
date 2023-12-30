@@ -10,7 +10,7 @@ const Footer = () => {
 	const data = {
 		links: [
 			{
-				link: '/privacy-policy',
+				link: '/privacypolicy',
 				text: 'Privacy Policy',
 			},
 			{
