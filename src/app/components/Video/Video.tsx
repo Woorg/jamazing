@@ -11,7 +11,8 @@ export function Video() {
 		<div className={styles.video}>
 			<Container className={styles.container}>
 				<div className={cn(styles.videoContainer)}>
-					<Image src={videoPlaceholder} alt="video" />
+					<Image className={cn(styles.embed)} src={videoPlaceholder} alt="video" />
+					{/* <div className={cn(styles.embed)}></div> */}
 				</div>
 			</Container>
 		</div>
