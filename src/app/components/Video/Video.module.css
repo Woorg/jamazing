@@ -1,2 +1,9 @@
 .video {
 }
+
+.container {
+}
+
+.videoContainer {
+	@apply aspect-10/4 rounded-[30px] border-[16px] border-gray;
+}
