@@ -3,11 +3,11 @@
 }
 
 .bg {
-	@apply absolute -top-[60px] left-1/2 h-[850px] w-[640px] -translate-x-1/2 lg:h-[848px] lg:w-[1927px];
+	@apply absolute -top-[60px] left-1/2  hidden -translate-x-1/2 sm:block sm:h-[848px] sm:w-[1927px];
 }
 
 .bgMob {
-	@apply absolute -top-[60px] left-1/2 h-[850px] w-[640px] -translate-x-1/2 lg:h-[848px] lg:w-[1927px];
+	@apply absolute -top-[60px] left-1/2 h-[850px] w-[640px] -translate-x-1/2 sm:hidden;
 }
 
 .container {

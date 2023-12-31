@@ -1,4 +1,5 @@
 import { cn } from '@/app/libs/utils';
+import bgMob from '@images/general/about/about-bg-mob.png';
 import bg from '@images/general/about/about-bg.png';
 import appStore from '@images/general/about/app-store.svg';
 import playMarket from '@images/general/about/google-play.png';
@@ -32,6 +33,7 @@ export function About() {
 	return (
 		<section className={styles.about}>
 			<Image className={styles.bg} src={bg} alt="bg" />
+			<Image className={styles.bgMob} src={bgMob} alt="bg" />
 
 			<Container className={cn(styles.container, 'max-w-6xl')}>
 				<div className={cn(styles.cols)}>
