@@ -33,7 +33,7 @@ export function About() {
 	return (
 		<section className={styles.about}>
 			<Image className={styles.bg} src={bg} alt="bg" />
-			<Image className={styles.bgMob} src={bgMob} alt="bg" />
+<Image className={styles.bgMob} src={bgMob} alt="bg" width={bgMob.width + 248} height={bgMob.height}/>
 
 			<Container className={cn(styles.container, 'max-w-6xl')}>
 				<div className={cn(styles.cols)}>
