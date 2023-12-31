@@ -3,7 +3,7 @@
 }
 
 .bg {
-	@apply absolute -top-[60px] left-1/2  hidden -translate-x-1/2 sm:block sm:h-[848px] sm:w-[1927px];
+@apply absolute -top-[60px] left-1/2  hidden -translate-x-1/2 sm:block sm:h-[848px] sm:w-[1927px];
 }
 
 .bgMob {

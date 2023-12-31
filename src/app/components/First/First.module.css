@@ -15,7 +15,7 @@
 }
 
 .imageWrap {
-	@apply aspect-9/4 relative lg:aspect-19/8;
+	@apply relative aspect-9/4 lg:aspect-19/8;
 }
 
 .image {
@@ -23,5 +23,5 @@
 }
 
 .imageMod {
-	@apply m-auto block  object-cover  sm:hidden;
+	@apply m-auto block w-full object-cover sm:hidden;
 }

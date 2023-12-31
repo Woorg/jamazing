@@ -15,7 +15,7 @@ export function First() {
 
 	return (
 		<div className={styles.first}>
-			<Container className={cn(styles.container, 'max-w-8xl container-full')}>
+			<Container className={cn(styles.container, 'container-full max-w-8xl')}>
 				<h1 className={cn(styles.title, 'title')}>{data.title}</h1>
 			</Container>
 			<figure className={styles.imageWrap}>
@@ -25,8 +25,8 @@ export function First() {
 					alt="image"
 					src={firstImgMob}
 					loading="lazy"
-					// width={firstImgMob.width}
-					// height={firstImgMob.height}
+					width={firstImgMob.width + 33 * 2}
+					height={firstImgMob.height}
 				/>
 			</figure>
 		</div>
