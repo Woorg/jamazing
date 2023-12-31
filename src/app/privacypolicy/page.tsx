@@ -1,6 +1,6 @@
 'use client';
 
-import Container from '../components/container/Container';
+import { Container } from '../components/container/Container';
 
 interface Props {
 	params: {
@@ -1062,7 +1062,7 @@ export default function Page({ params }: Props) {
 			<h1 className="title">PRIVACY POLICY</h1>
 
 			<div
-				className="prose prose-headings:text-lightGray text-lightGray"
+				className="prose max-w-full text-lightGray prose-headings:text-lightGray"
 				dangerouslySetInnerHTML={{ __html: data.text }}
 			></div>
 		</Container>

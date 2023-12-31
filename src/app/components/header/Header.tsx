@@ -1,6 +1,6 @@
 import { cn } from '@/app/libs/utils';
 import Link from 'next/link';
-import Container from '../container/Container';
+import { Container } from '../container/Container';
 import { Logo } from '../logo/Logo';
 import { Social } from '../social';
 import s from './Header.module.css';
@@ -15,7 +15,7 @@ const Header = () => {
 
 	return (
 		<header className={cn(s.header, '', {})}>
-			<Container className={cn(s.container, '', {})}>
+			<Container className={cn(s.container, 'max-w-8xl container-full', {})}>
 				<Logo className={cn(s.logo, 'some')} href="/" />
 
 				<div className={cn(s.links, '')}>

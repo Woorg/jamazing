@@ -7,11 +7,11 @@
 }
 
 .links {
-	@apply flex gap-10;
+	@apply flex gap-5 lg:gap-10;
 }
 
 .link {
-	@apply text-underline shadow-underline text-lg transition-all;
+	@apply text-lg text-underline shadow-underline transition-all;
 	&:hover {
 		@apply shadow-none transition-all;
 	}

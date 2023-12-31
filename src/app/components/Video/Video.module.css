@@ -7,7 +7,7 @@
 }
 
 .videoContainer {
-	@apply aspect-10/4 overflow-hidden rounded-[30px] border-[16px] border-gray;
+	@apply aspect-10/4 overflow-hidden rounded-[30px] border-4 border-gray lg:border-[16px];
 }
 
 .embed {

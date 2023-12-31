@@ -1,5 +1,5 @@
 import { cn } from '@/app/libs/utils';
-import Container from '../container/Container';
+import { Container } from '../container/Container';
 import styles from './More.module.css';
 
 export function More() {
@@ -10,7 +10,7 @@ export function More() {
 
 	return (
 		<div className={styles.more}>
-			<Container className={styles.container}>
+			<Container className={cn(styles.container, 'max-w-6xl')}>
 				<div className={cn(styles.cols)}>
 					<div className={cn(styles.col)}>
 						<p

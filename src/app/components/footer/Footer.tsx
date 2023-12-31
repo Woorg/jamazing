@@ -2,7 +2,7 @@
 
 import { cn } from '@/app/libs/utils';
 import Link from 'next/link';
-import Container from '../container/Container';
+import { Container } from '../container/Container';
 import { LogoSecond } from '../logo/Logo';
 import s from './Footer.module.css';
 
@@ -22,7 +22,7 @@ const Footer = () => {
 
 	return (
 		<footer className={cn(s.footer)}>
-			<Container className={cn(s.container)}>
+			<Container className={cn(s.container, 'max-w-8xl container-full')}>
 				<ul className={s.links}>
 					{data.links.map((item, index) => (
 						<li key={`_${index}_`} className={s.item}>

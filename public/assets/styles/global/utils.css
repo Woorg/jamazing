@@ -22,9 +22,12 @@
 		@apply text-xl font-normal text-softGray lg:text-2xl;
 	}
 	.title-gradient {
-		@apply bg-contactsTitleMod lg:bg-contactsTitle text-[63px] font-extrabold leading-none tracking-tight lg:text-[208px];
+		@apply bg-contactsTitleMod text-[63px] font-extrabold leading-none tracking-tighter lg:bg-contactsTitle lg:text-[208px] lg:tracking-tight;
 		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+	.container-full {
+		@apply relative z-0 px-[34px] xl:px-[100px];
 	}
 }

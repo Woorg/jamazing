@@ -1,17 +1,27 @@
 .first {
 	@apply relative z-0 overflow-hidden lg:pt-10;
 }
+
 /* .bg {
 	@apply absolute bottom-0 left-0 z-10;
 } */
-.image {
-	@apply m-auto aspect-19/8 object-cover;
-}
+
 .container {
-	@apply /* @apply
-	aspect-19/8; */ relative z-10;
+	@apply relative z-10;
 }
 
 .title {
-	@apply m-0 -mb-24 hidden lg:block;
+	@apply m-0 -mb-24 hidden lg:ml-32 lg:block;
+}
+
+.imageWrap {
+	@apply aspect-9/4 relative lg:aspect-19/8;
+}
+
+.image {
+	@apply m-auto hidden aspect-19/8 object-cover sm:block;
+}
+
+.imageMod {
+	@apply m-auto block  object-cover  sm:hidden;
 }

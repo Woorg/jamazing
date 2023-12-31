@@ -4,7 +4,7 @@ import appStore from '@images/general/about/app-store.svg';
 import playMarket from '@images/general/about/google-play.png';
 import Image from 'next/image';
 import Link from 'next/link';
-import Container from '../container/Container';
+import { Container } from '../container/Container';
 import styles from './About.module.css';
 
 export function About() {
@@ -33,7 +33,7 @@ export function About() {
 		<section className={styles.about}>
 			<Image className={styles.bg} src={bg} alt="bg" />
 
-			<Container className={styles.container}>
+			<Container className={cn(styles.container, 'max-w-6xl')}>
 				<div className={cn(styles.cols)}>
 					<div className={cn(styles.col)}>
 						<h2 className={cn(styles.title, 'title title_h2')}>

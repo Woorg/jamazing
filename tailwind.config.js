@@ -10,9 +10,9 @@ module.exports = {
 		container: {
 			center: true,
 			padding: {
-				DEFAULT: '12px',
-				sm: '12px',
-				lg: '30px',
+				DEFAULT: '33px',
+				sm: '33px',
+				lg: '34px',
 			},
 		},
 
@@ -20,12 +20,13 @@ module.exports = {
 			screens: {
 				sm: '640px',
 				md: '768px',
-				lg: '1132px',
-				xl: '1280px',
-				'2xl': '1676px',
+				lg: '1140px',
+				// xl: '1140px',
+				// '2xl': '1140px',
 			},
 			maxWidth: {
-				'8xl': '1676px',
+				'6xl': '1140px',
+				'8xl': '1824px',
 			},
 			fontFamily: {
 				mulish: ['var(--mulish)'],
@@ -58,6 +59,7 @@ module.exports = {
 				'19/84': '1927 / 848',
 				'19/8': '1927 / 860',
 				'10/4': '1040 / 467',
+				'9/4': '985 / 443',
 			},
 		},
 	},

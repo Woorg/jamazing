@@ -6,12 +6,16 @@
 	@apply absolute -top-[60px] left-1/2 h-[850px] w-[640px] -translate-x-1/2 lg:h-[848px] lg:w-[1927px];
 }
 
+.bgMob {
+	@apply absolute -top-[60px] left-1/2 h-[850px] w-[640px] -translate-x-1/2 lg:h-[848px] lg:w-[1927px];
+}
+
 .container {
 	@apply relative z-0;
 }
 
 .cols {
-	@apply grid lg:grid-cols-2 lg:gap-7 lg:px-14;
+	@apply grid md:grid-cols-2 lg:gap-7;
 }
 
 .col {
@@ -25,10 +29,11 @@
 }
 
 .note {
-	@apply text-xl font-extrabold capitalize text-lightGray;
+	@apply mb-5 text-xl font-extrabold capitalize text-lightGray;
 }
 
 .markets {
+	@apply flex flex-col gap-5;
 }
 
 .market {
@@ -42,5 +47,5 @@
 }
 
 .button {
-	@apply mx-9 mt-10 bg-orange lg:hidden;
+	@apply mx-9 mt-10 bg-orange md:hidden;
 }

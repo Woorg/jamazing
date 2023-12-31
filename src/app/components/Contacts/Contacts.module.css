@@ -7,7 +7,7 @@
 }
 
 .title {
-	/* @apply ; */
+	@apply mb-10 lg:mb-0;
 }
 
 .social {
